@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.img-main {
+    width: 513px ;
+    height: 493px;
+    margin-left: 121px;
+    margin-top: 63px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 56px;
+    margin-left: 64px;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,26));
+
+}
+
+.link-header:hover{
+    font-size: 25px;
+    transition: 1.5s ease-in-out;
+}
+
+    .button-header {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        width: 124px;
+        height: 51px;
+        margin-top: 10px;
+        margin-left: 15px;
+        color: #ffffff;
+        background-color: #6FBF44;
+        border-radius: 30px;
+        border: none;  
+        cursor: pointer;
+        filter: drop-shadow(0px 4px 4px rgba(0,0,0,26));
+    }
+
+
+
+
+section {
+    display: inline-block;
+    margin-top: 246px;
+    margin-left: 121px;
+}
+
+    .button-section {
+        width: 112px;
+        height: 35px;
+        margin-top: 20px;
+        font-weight: 500;
+        border-radius: 35px;
+        border: none;
+        font-size: 18px;
+        line-height: 27px;
+        color: #6FBF44;
+        cursor: pointer;
+        filter: drop-shadow(0px 4px 4px rgba(0,0,0,26));
+    }
+
+
+        .button-section:hover{
+            width: 130px;
+            transition: 1.0s ease-in-out;
+        }
+
+
+.titulo {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 82px;
+    color: #161A49;
+    margin-bottom: -16px;
+
+}
+
+.titulo-secudario {
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 82px;
+    color: #161A49;
+
+}
+
+.paragrafo {
+    font-weight: 400;
+    width: 493px;
+    color: #4B505A;
+
+
+
+}
+    /* quando mi tela sea menor que esto aplicara este css */
+
+@media screen and (max-width:840px){
+    section {
+        display: block;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 17px;
+    }
+
+    .titulo {
+        /* margin-left: 60px; */
+        margin-bottom: -46px;
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .titulo-secudario {
+        margin-left: 110px;
+        font-size: 34px;
+    }
+
+    .paragrafo {
+        font-size: 15px;
+        text-align: center;
+        width: 380px;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .img-main {
+        margin-top: 71%;
+        margin-left: 76px;
+        height: 276px;
+        width: 241px;
+    }
+
+    .button-header {
+        width: 84px;
+        height: 32px;
+        font-weight: 49px;
+        line-height: 0px;
+        margin-left: 75%;
+        border-radius: 16px;
+        font-size: 13px;
+    }
+
+    .button-section {
+        margin-left: 33%;
+    }
+}
